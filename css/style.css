@@ -1,0 +1,21 @@
+header {
+    margin: 00 auto;
+    padding: 20px;
+    width: 70%;
+    background: chartreuse;
+    border: 10px solid blue;
+    border-radius: 5px;
+}
+
+.list-1 {
+    color: navy;
+}
+
+.flex-container {
+    display: flexbox;
+    gap: 40px;
+}
+
+.box-1 {
+    color: purple;
+}
