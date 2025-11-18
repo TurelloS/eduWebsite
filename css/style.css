@@ -11,6 +11,10 @@ header {
     color: navy;
 }
 
+.list-2 {
+    color: royalblue;
+}
+
 .flex-container {
     display: flexbox;
     gap: 40px;
@@ -18,4 +22,15 @@ header {
 
 .box-1 {
     color: purple;
+}
+
+.box-2 {
+    color: blueviolet;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        align-items: center;
+    }
+
 }
